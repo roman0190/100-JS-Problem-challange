@@ -1,8 +1,9 @@
 var reduce = function (nums, fn, init) {
+    let accum = init
   for (let i = 0; i < nums.length; i++) {
-    init = fn(init, nums[i]);
+    accum = fn(accum, nums[i]);
   }
-  return init;
+  return accum;
 };
 
 nums = [1, 2, 3, 4];
