@@ -1,0 +1,24 @@
+{
+  "name": "100-javascript-problem-challange",
+  "version": "1.0.0",
+  "description": "https://leetcode.com/u/roman0190/",
+  "main": " Code Remove Duplicates from Sorted Array.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon 724. Find Pivot Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roman0190/100-JS-Problem-challange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roman0190/100-JS-Problem-challange/issues"
+  },
+  "homepage": "https://github.com/roman0190/100-JS-Problem-challange#readme",
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
