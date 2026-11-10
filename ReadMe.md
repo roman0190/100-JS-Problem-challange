@@ -4,9 +4,11 @@ Two tracks: [General JavaScript Practice](./javascript-practice/README.md) and [
 
 | Track | Organized solutions | Target |
 |---|---:|---:|
-| General JavaScript | 55 | 1,000 |
-| LeetCode | 56 | 1,000 |
+| General JavaScript | 105 | 1,000 |
+| LeetCode | 106 | 1,000 |
 
-Newest batch: 101 problems (50 general + 51 LeetCode). Run the batch files with Node.js to execute their embedded assertions. Older root-level solutions remain untouched and are not counted until reviewed.
+Latest batch: 100 new problems (50 general JavaScript + 50 LeetCode). Each new batch includes assertions; only batches that pass runtime checks will be counted as verified. Older root-level solutions remain untouched and are not counted until reviewed.
+
+Latest batch files: javascript-practice/batch-0056-0105.js and leetcode-top-1000/batch-0561-0610.js.
 
 LeetCode profile: https://leetcode.com/u/roman0190/

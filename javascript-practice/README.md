@@ -53,6 +53,72 @@ Batch 0006–0055 adds 50 general JavaScript problems in [batch-0006-0055.js](./
 - 0054. Deep Clone JSON Data
 - 0055. Memoize Function
 
-Run: `node javascript-practice/batch-0006-0055.js`.
+Run: node javascript-practice/batch-0006-0055.js.
 
-**Progress:** 55 / 1,000 (5 previous + 50 new).
+**Progress:** 105 / 1,000 implemented (runtime verification is recorded after tests pass).
+## Problems 0001–0005
+
+| # | Problem | Topic | Link |
+|---:|---|---|---|
+| 1 | Factorial | Math / Loops | [Solution](./0001-factorial.js) |
+| 2 | Fibonacci Number | Math / Loops | [Solution](./0002-fibonacci.js) |
+| 3 | Palindrome String | Strings | [Solution](./0003-palindrome-string.js) |
+| 4 | Count Vowels | Strings | [Solution](./0004-count-vowels.js) |
+| 5 | Remove Duplicates | Arrays / Set | [Solution](./0005-remove-duplicates.js) |
+
+## Problems 0056–0105
+
+| # | Problem | Topic | Link |
+|---:|---|---|---|
+| 56 | Compact Array | Arrays | [Solution](./batch-0056-0105.js) |
+| 57 | Zip Arrays | Arrays | [Solution](./batch-0056-0105.js) |
+| 58 | Transpose Matrix | Matrix | [Solution](./batch-0056-0105.js) |
+| 59 | Rotate Matrix Clockwise | Matrix | [Solution](./batch-0056-0105.js) |
+| 60 | Matrix Diagonal Sums | Matrix | [Solution](./batch-0056-0105.js) |
+| 61 | Find the Missing Number | Arrays / Math | [Solution](./batch-0056-0105.js) |
+| 62 | Find Duplicate Values | Arrays / Set | [Solution](./batch-0056-0105.js) |
+| 63 | Partition Array by Predicate | Arrays | [Solution](./batch-0056-0105.js) |
+| 64 | Stable Sort by Key | Sorting | [Solution](./batch-0056-0105.js) |
+| 65 | Shallow Array Equality | Arrays | [Solution](./batch-0056-0105.js) |
+| 66 | Group Consecutive Numbers | Arrays / Sorting | [Solution](./batch-0056-0105.js) |
+| 67 | Numeric Range | Math | [Solution](./batch-0056-0105.js) |
+| 68 | Clamp a Number | Math | [Solution](./batch-0056-0105.js) |
+| 69 | Round to Decimal Places | Math | [Solution](./batch-0056-0105.js) |
+| 70 | Seconds to HH:MM:SS | Date / Time | [Solution](./batch-0056-0105.js) |
+| 71 | Parse Query String | URL / Strings | [Solution](./batch-0056-0105.js) |
+| 72 | Build Query String | URL / Strings | [Solution](./batch-0056-0105.js) |
+| 73 | Slugify Text | Strings | [Solution](./batch-0056-0105.js) |
+| 74 | camelCase to kebab-case | Strings | [Solution](./batch-0056-0105.js) |
+| 75 | kebab-case to camelCase | Strings | [Solution](./batch-0056-0105.js) |
+| 76 | Remove Diacritics | Unicode / Strings | [Solution](./batch-0056-0105.js) |
+| 77 | Longest Word | Strings | [Solution](./batch-0056-0105.js) |
+| 78 | Count Substring Occurrences | Strings | [Solution](./batch-0056-0105.js) |
+| 79 | Remove Duplicate Characters | Strings / Set | [Solution](./batch-0056-0105.js) |
+| 80 | Run-Length Encode | Strings | [Solution](./batch-0056-0105.js) |
+| 81 | Run-Length Decode | Strings | [Solution](./batch-0056-0105.js) |
+| 82 | Caesar Cipher | Strings | [Solution](./batch-0056-0105.js) |
+| 83 | ROT13 | Strings | [Solution](./batch-0056-0105.js) |
+| 84 | Validate IPv4 Address | Validation / Strings | [Solution](./batch-0056-0105.js) |
+| 85 | Mask Email Address | Strings | [Solution](./batch-0056-0105.js) |
+| 86 | Mask String | Strings | [Solution](./batch-0056-0105.js) |
+| 87 | Safe JSON Parse | JSON / Error Handling | [Solution](./batch-0056-0105.js) |
+| 88 | Pick Object Properties | Objects | [Solution](./batch-0056-0105.js) |
+| 89 | Omit Object Properties | Objects | [Solution](./batch-0056-0105.js) |
+| 90 | Invert Object | Objects | [Solution](./batch-0056-0105.js) |
+| 91 | Get Nested Property | Objects | [Solution](./batch-0056-0105.js) |
+| 92 | Set Nested Property | Objects | [Solution](./batch-0056-0105.js) |
+| 93 | Deep Freeze | Objects / Recursion | [Solution](./batch-0056-0105.js) |
+| 94 | Deep Merge Objects | Objects / Recursion | [Solution](./batch-0056-0105.js) |
+| 95 | Pipe Functions | Functional Programming | [Solution](./batch-0056-0105.js) |
+| 96 | Curry Function | Functional Programming | [Solution](./batch-0056-0105.js) |
+| 97 | Partial Application | Functional Programming | [Solution](./batch-0056-0105.js) |
+| 98 | Once Function | Closures | [Solution](./batch-0056-0105.js) |
+| 99 | Event Emitter | Events / Objects | [Solution](./batch-0056-0105.js) |
+| 100 | LRU Cache | Data Structures | [Solution](./batch-0056-0105.js) |
+| 101 | Roman Numeral to Integer | Math / Strings | [Solution](./batch-0056-0105.js) |
+| 102 | Integer to Roman Numeral | Math / Strings | [Solution](./batch-0056-0105.js) |
+| 103 | Format Bytes | Formatting / Math | [Solution](./batch-0056-0105.js) |
+| 104 | Validate ISO Date | Date / Validation | [Solution](./batch-0056-0105.js) |
+| 105 | Median of an Array | Arrays / Sorting | [Solution](./batch-0056-0105.js) |
+
+**Progress:** 105 / 1,000 implemented. Run with Node.js: node javascript-practice/batch-0056-0105.js.
