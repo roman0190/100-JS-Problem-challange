@@ -1,6 +1,60 @@
 # LeetCode Top 1,000
 
-This batch adds 51 real LeetCode problems in [batch-0003-0560.js](./batch-0003-0560.js), with embedded assertions and ListNode/TreeNode fixtures.
+The former combined batch has been split into **51 individual JavaScript files**, one file per LeetCode problem. Each file exports its solution and includes ListNode/TreeNode fixtures for linked-list and tree problems.
+
+| ID | Problem | Difficulty | Topic | Links |
+|---:|---|---|---|---|
+| 17 | Letter Combinations of a Phone Number | Medium | Backtracking | [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) · [Code](./0017-letter-combinations-of-a-phone-number.js) |
+| 19 | Remove Nth Node From End of List | Medium | Linked List | [LeetCode](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) · [Code](./0019-remove-nth-node-from-end-of-list.js) |
+| 26 | Remove Duplicates from Sorted Array | Easy | Two Pointers | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) · [Code](./0026-remove-duplicates-from-sorted-array.js) |
+| 27 | Remove Element | Easy | Array | [LeetCode](https://leetcode.com/problems/remove-element/) · [Code](./0027-remove-element.js) |
+| 33 | Search in Rotated Sorted Array | Medium | Binary Search | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) · [Code](./0033-search-in-rotated-sorted-array.js) |
+| 36 | Valid Sudoku | Medium | Hash Set | [LeetCode](https://leetcode.com/problems/valid-sudoku/) · [Code](./0036-valid-sudoku.js) |
+| 42 | Trapping Rain Water | Hard | Two Pointers | [LeetCode](https://leetcode.com/problems/trapping-rain-water/) · [Code](./0042-trapping-rain-water.js) |
+| 53 | Maximum Subarray | Medium | Kadane | [LeetCode](https://leetcode.com/problems/maximum-subarray/) · [Code](./0053-maximum-subarray.js) |
+| 54 | Spiral Matrix | Medium | Matrix | [LeetCode](https://leetcode.com/problems/spiral-matrix/) · [Code](./0054-spiral-matrix.js) |
+| 56 | Merge Intervals | Medium | Sorting | [LeetCode](https://leetcode.com/problems/merge-intervals/) · [Code](./0056-merge-intervals.js) |
+| 62 | Unique Paths | Medium | Dynamic Programming | [LeetCode](https://leetcode.com/problems/unique-paths/) · [Code](./0062-unique-paths.js) |
+| 66 | Plus One | Easy | Array | [LeetCode](https://leetcode.com/problems/plus-one/) · [Code](./0066-plus-one.js) |
+| 70 | Climbing Stairs | Easy | Dynamic Programming | [LeetCode](https://leetcode.com/problems/climbing-stairs/) · [Code](./0070-climbing-stairs.js) |
+| 73 | Set Matrix Zeroes | Medium | Matrix | [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/) · [Code](./0073-set-matrix-zeroes.js) |
+| 74 | Search a 2D Matrix | Medium | Binary Search | [LeetCode](https://leetcode.com/problems/search-a-2d-matrix/) · [Code](./0074-search-a-2d-matrix.js) |
+| 88 | Merge Sorted Array | Easy | Two Pointers | [LeetCode](https://leetcode.com/problems/merge-sorted-array/) · [Code](./0088-merge-sorted-array.js) |
+| 94 | Binary Tree Inorder Traversal | Easy | Tree | [LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal/) · [Code](./0094-binary-tree-inorder-traversal.js) |
+| 98 | Validate Binary Search Tree | Medium | DFS | [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/) · [Code](./0098-validate-binary-search-tree.js) |
+| 100 | Same Tree | Easy | Tree | [LeetCode](https://leetcode.com/problems/same-tree/) · [Code](./0100-same-tree.js) |
+| 101 | Symmetric Tree | Easy | Tree | [LeetCode](https://leetcode.com/problems/symmetric-tree/) · [Code](./0101-symmetric-tree.js) |
+| 102 | Binary Tree Level Order Traversal | Medium | BFS | [LeetCode](https://leetcode.com/problems/binary-tree-level-order-traversal/) · [Code](./0102-binary-tree-level-order-traversal.js) |
+| 104 | Maximum Depth of Binary Tree | Easy | DFS | [LeetCode](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [Code](./0104-maximum-depth-of-binary-tree.js) |
+| 108 | Convert Sorted Array to Binary Search Tree | Easy | Tree | [LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) · [Code](./0108-convert-sorted-array-to-binary-search-tree.js) |
+| 118 | Pascal's Triangle | Easy | Array | [LeetCode](https://leetcode.com/problems/pascals-triangle/) · [Code](./0118-pascal-s-triangle.js) |
+| 122 | Best Time to Buy and Sell Stock II | Medium | Greedy | [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) · [Code](./0122-best-time-to-buy-and-sell-stock-ii.js) |
+| 136 | Single Number | Easy | Bit Manipulation | [LeetCode](https://leetcode.com/problems/single-number/) · [Code](./0136-single-number.js) |
+| 141 | Linked List Cycle | Easy | Two Pointers | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) · [Code](./0141-linked-list-cycle.js) |
+| 144 | Binary Tree Preorder Traversal | Easy | Tree | [LeetCode](https://leetcode.com/problems/binary-tree-preorder-traversal/) · [Code](./0144-binary-tree-preorder-traversal.js) |
+| 145 | Binary Tree Postorder Traversal | Easy | Tree | [LeetCode](https://leetcode.com/problems/binary-tree-postorder-traversal/) · [Code](./0145-binary-tree-postorder-traversal.js) |
+| 155 | Min Stack | Medium | Stack | [LeetCode](https://leetcode.com/problems/min-stack/) · [Code](./0155-min-stack.js) |
+| 160 | Intersection of Two Linked Lists | Easy | Linked List | [LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/) · [Code](./0160-intersection-of-two-linked-lists.js) |
+| 169 | Majority Element | Easy | Boyer-Moore | [LeetCode](https://leetcode.com/problems/majority-element/) · [Code](./0169-majority-element.js) |
+| 189 | Rotate Array | Medium | Array | [LeetCode](https://leetcode.com/problems/rotate-array/) · [Code](./0189-rotate-array.js) |
+| 198 | House Robber | Medium | Dynamic Programming | [LeetCode](https://leetcode.com/problems/house-robber/) · [Code](./0198-house-robber.js) |
+| 200 | Number of Islands | Medium | DFS | [LeetCode](https://leetcode.com/problems/number-of-islands/) · [Code](./0200-number-of-islands.js) |
+| 206 | Reverse Linked List | Easy | Linked List | [LeetCode](https://leetcode.com/problems/reverse-linked-list/) · [Code](./0206-reverse-linked-list.js) |
+| 217 | Contains Duplicate | Easy | Hash Set | [LeetCode](https://leetcode.com/problems/contains-duplicate/) · [Code](./0217-contains-duplicate.js) |
+| 226 | Invert Binary Tree | Easy | Tree | [LeetCode](https://leetcode.com/problems/invert-binary-tree/) · [Code](./0226-invert-binary-tree.js) |
+| 230 | Kth Smallest Element in a BST | Medium | BST | [LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · [Code](./0230-kth-smallest-element-in-a-bst.js) |
+| 235 | Lowest Common Ancestor of a BST | Medium | BST | [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) · [Code](./0235-lowest-common-ancestor-of-a-bst.js) |
+| 242 | Valid Anagram | Easy | Hash Map | [LeetCode](https://leetcode.com/problems/valid-anagram/) · [Code](./0242-valid-anagram.js) |
+| 268 | Missing Number | Easy | Math | [LeetCode](https://leetcode.com/problems/missing-number/) · [Code](./0268-missing-number.js) |
+| 287 | Find the Duplicate Number | Medium | Floyd Cycle | [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) · [Code](./0287-find-the-duplicate-number.js) |
+| 300 | Longest Increasing Subsequence | Medium | Dynamic Programming | [LeetCode](https://leetcode.com/problems/longest-increasing-subsequence/) · [Code](./0300-longest-increasing-subsequence.js) |
+| 322 | Coin Change | Medium | Dynamic Programming | [LeetCode](https://leetcode.com/problems/coin-change/) · [Code](./0322-coin-change.js) |
+| 347 | Top K Frequent Elements | Medium | Hash Map | [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/) · [Code](./0347-top-k-frequent-elements.js) |
+| 394 | Decode String | Medium | Stack | [LeetCode](https://leetcode.com/problems/decode-string/) · [Code](./0394-decode-string.js) |
+| 409 | Longest Palindrome | Easy | Hash Map | [LeetCode](https://leetcode.com/problems/longest-palindrome/) · [Code](./0409-longest-palindrome.js) |
+| 416 | Partition Equal Subset Sum | Medium | Dynamic Programming | [LeetCode](https://leetcode.com/problems/partition-equal-subset-sum/) · [Code](./0416-partition-equal-subset-sum.js) |
+| 438 | Find All Anagrams in a String | Medium | Sliding Window | [LeetCode](https://leetcode.com/problems/find-all-anagrams-in-a-string/) · [Code](./0438-find-all-anagrams-in-a-string.js) |
+| 560 | Subarray Sum Equals K | Medium | Prefix Sum | [LeetCode](https://leetcode.com/problems/subarray-sum-equals-k/) · [Code](./0560-subarray-sum-equals-k.js) |
 
 | ID | Problem | Difficulty | Topic |
 |---:|---|---|---|
