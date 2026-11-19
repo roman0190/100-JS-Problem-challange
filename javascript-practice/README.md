@@ -55,7 +55,7 @@ Batch 0006–0055 adds 50 general JavaScript problems in [batch-0006-0055.js](./
 
 Run: node javascript-practice/batch-0006-0055.js.
 
-**Progress:** 105 / 1,000 implemented (runtime verification is recorded after tests pass).
+**Progress:** 106 / 1,000 implemented (runtime verification is recorded after tests pass).
 ## Problems 0001–0005
 
 | # | Problem | Topic | Link |
@@ -122,3 +122,13 @@ Run: node javascript-practice/batch-0006-0055.js.
 | 105 | Median of an Array | Arrays / Sorting | [Solution](./batch-0056-0105.js) |
 
 **Progress:** 105 / 1,000 implemented. Run with Node.js: node javascript-practice/batch-0056-0105.js.
+
+
+## Problem 0106
+
+| # | Problem | Topic | Link |
+|---:|---|---|---|
+| 106 | Retry Async Function with Exponential Backoff | Async / Promises / Error Handling | [Solution](./0106-retry-async-function.js) |
+
+Run: node javascript-practice/0106-retry-async-function.js.
+
