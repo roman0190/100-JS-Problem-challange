@@ -55,7 +55,6 @@ Batch 0006–0055 adds 50 general JavaScript problems in [batch-0006-0055.js](./
 
 Run: node javascript-practice/batch-0006-0055.js.
 
-**Progress:** 106 / 1,000 implemented (runtime verification is recorded after tests pass).
 ## Problems 0001–0005
 
 | # | Problem | Topic | Link |
@@ -121,7 +120,6 @@ Run: node javascript-practice/batch-0006-0055.js.
 | 104 | Validate ISO Date | Date / Validation | [Solution](./batch-0056-0105.js) |
 | 105 | Median of an Array | Arrays / Sorting | [Solution](./batch-0056-0105.js) |
 
-**Progress:** 105 / 1,000 implemented. Run with Node.js: node javascript-practice/batch-0056-0105.js.
 
 
 ## Problem 0106
@@ -132,3 +130,16 @@ Run: node javascript-practice/batch-0006-0055.js.
 
 Run: node javascript-practice/0106-retry-async-function.js.
 
+
+
+## Problem 0107
+
+| # | Problem | Topic | Link |
+|---:|---|---|---|
+| 107 | Run Async Tasks with a Concurrency Limit | Async / Promises / Concurrency | [Solution](./0107-concurrency-limited-task-runner.js) |
+
+Use case: process API requests or file uploads without exceeding a fixed number of simultaneous tasks. Results stay in input order, and a failed task is reported without stopping the remaining tasks.
+
+Run: node javascript-practice/0107-concurrency-limited-task-runner.js.
+
+**Progress:** 107 / 1,000 implemented. Problem 0107's assertion suite passes.
