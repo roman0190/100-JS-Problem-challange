@@ -142,4 +142,14 @@ Use case: process API requests or file uploads without exceeding a fixed number 
 
 Run: node javascript-practice/0107-concurrency-limited-task-runner.js.
 
-**Progress:** 107 / 1,000 implemented. Problem 0107's assertion suite passes.
+## Problem 0108
+
+| # | Problem | Topic | Link |
+|---:|---|---|---|
+| 108 | Deduplicate Concurrent Async Requests (Single-Flight) | Async / Promises / Map / Request Deduplication | [Solution](./0108-single-flight-request-deduplicator.js) |
+
+Use case: when multiple components request the same resource at once, they share one pending API call. The in-flight entry is removed after success or failure, so later calls can fetch fresh data instead of receiving a cached response.
+
+Run: node javascript-practice/0108-single-flight-request-deduplicator.js.
+
+**Progress:** 108 / 1,000 implemented. Problem 0108's assertion suite passes.
